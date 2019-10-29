@@ -1,2 +1,39 @@
 /*  MES STYLES */
 
+@import "calendar";
+
+$primary: #002147;
+main h1{
+    text-align: center;
+    background: $primary;
+    color: white;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+/* BLOC EQUIPEMENT  POUR LA PAGE CHOIX PAR EQUIPEMENT */
+
+.equipement{
+    border:1px solid #ccc;
+    padding:0.5rem;
+
+}
+.equipement-img{
+    img {width:100%}
+}
+.equipement-content{
+}
+.equipement-btn {
+    text-align: center;
+    a {margin-bottom:1rem}
+}
+
+.h300{
+    max-height: 300px;
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+}

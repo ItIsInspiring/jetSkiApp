@@ -90,7 +90,9 @@
 
     </div>
     
-    <button type="submit" class="btn btn-primary">Envoyer</button>
+    <div class="form-row col-md-12">
+      <p class="text-justify"><button type="submit" class="btn btn-primary">Envoyer</button></p>
+    </div>
 
   </form>
 </main>
