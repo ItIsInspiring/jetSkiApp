@@ -13,7 +13,9 @@
 <!-- CONTENU PRINCIPAL -->
 <main class="container">
 <h1>Choix par date</h1>
-<?php require_once '../vendor/autoload.php'; ?>
+
+
+<div id='calendar'></div>
 
 
 </main>
